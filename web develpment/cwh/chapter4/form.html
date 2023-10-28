@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <body>
+    <div>
+      <h1>Travel form for a trip</h1>
+      <form action="form.php">
+        <input type="text" placeholder="Enter your name" />
+        <br />
+        <label for="sectionidA">
+          <input
+            type="radio"
+            value="section A"
+            name="section"
+            id="sectionidA"
+          />section A
+        </label>
+        <br />
+        <label for="sectionidB">
+          <input
+            type="radio"
+            value="section B"
+            name="section"
+            id="sectionidB"
+          />section B
+        </label>
+        <br />
+        <label for="sectionidC">
+          <input
+            type="radio"
+            value="section C"
+            name="section"
+            id="sectionidC"
+          />section C
+        </label>
+        <br />
+        food
+        <input
+          type="checkbox"
+          name="want food canteen card"
+          id="Foods canteen"
+          class="red"
+        />
+        <br />
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Explain why you want to join"
+        ></textarea>
+        <br />
+        <select name="bus" id="bus">
+          <option value="no bus">select your bus</option>
+          <option value="bus1">bus1</option>
+          <option value="bus2">bus2</option>
+          <option value="bus3">bus3</option>
+          <option value="bus4">bus4</option>
+        </select>
+        <br />
+        <a href="video.html" target="_blank" controls loop width="50%"
+          >click here for video</a
+        >
+      </form>
+    </div>
+  </body>
+</html>

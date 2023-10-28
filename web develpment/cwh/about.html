@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>about</title>
+  </head>
+  <body>
+    <h1>This is about.</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet
+      reprehenderit tempore enim architecto repudiandae nisi ut quo hic expedita
+      officia, tempora vel. Nostrum laboriosam consequatur praesentium fugiat
+      asperiores quibusdam sapiente recusandae maxime blanditiis qui, omnis,
+      officia iusto, tempore molestiae impedit itaque! Perferendis autem nobis
+      necessitatibus impedit eius et ipsa assumenda fugit veniam, eligendi saepe
+      <b>at numquam ex sunt officiis. Ad tempore minima sapiente dolorem laudantium
+      possimus ratione<u><br> explicabo. Est reprehenderit quibusdam
+      nesciunt praesentium <i>asperiores doloribus molestias</i> maiores quia iste
+      corporis</u></b> quae veritatis illo voluptates corrupti facilis ipsam quas velit
+      magnam, sit ducimus eligendi! Quibusdam aspernatur velit nesciunt officia
+      minus.
+    </p>
+    <h2>Here is a code</h2>
+    <pre>import logging
+        import auxiliary_module
+        
+        # create logger with 'spam_application'
+        logger = logging.getLogger('spam_application')
+        logger.setLevel(logging.DEBUG)
+        # create file handler which logs even debug messages
+        fh = logging.FileHandler('spam.log')
+        fh.setLevel(logging.DEBUG)
+        # create console handler with a higher log level
+        ch = logging.StreamHandler()
+        ch.setLevel(logging.ERROR)
+        # create formatter and add it to the handlers
+        formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+        fh.setFormatter(formatter)
+        ch.setFormatter(formatter)
+        # add the handlers to the logger
+        logger.addHandler(fh)
+        logger.addHandler(ch)
+        
+        logger.info('creating an instance of auxiliary_module.Auxiliary')
+        a = auxiliary_module.Auxiliary()
+        logger.info('created an instance of auxiliary_module.Auxiliary')
+        logger.info('calling auxiliary_module.Auxiliary.do_something')
+        a.do_something()
+        logger.info('finished auxiliary_module.Auxiliary.do_something')
+        logger.info('calling auxiliary_module.some_function()')
+        auxiliary_module.some_function()
+        logger.info('done with auxiliary_module.some_function()')</pre>
+  </body>
+</html>

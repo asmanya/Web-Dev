@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: white;
+    height: 100vh;
+    width: 60vh;
+    text-align: center;
+}
+
+h1{
+    padding: 5rem;
+}
+
+.form-container{
+    padding: 4rem;
+    display: grid;  
+}
+.form-item{
+    padding: 1rem;
+}
+.form-item>label{
+    position: absolute;
+    translate: 70% -100%;
+}
+.form-item>input[type="text"]{
+    border: 0px;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: rgb(241, 241, 241);
+}
+
+

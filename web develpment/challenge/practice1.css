@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    padding: 20px 20px;
+    margin: 20px;
+}
+
+.main_block{
+    background-color: rgb(240, 240, 240);
+    padding: 20px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.top{
+    background-color: rgb(143, 188, 143);
+    border-radius: 5px;
+    padding: 5px;
+}
+h1,h4{
+    color: #ffffff;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    border-radius: 4px;
+    border: 1px solid rgb(202, 202, 202);
+    padding: 5px;
+    
+}
+
+input[type="button"]{
+    border: #ffffff;
+    background-color: rgb(127, 192, 127);
+    padding: 5px 5px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    width:100%;
+}
+
+input[type="button"]:hover{
+    background-color: rgb(116, 175, 116);
+}

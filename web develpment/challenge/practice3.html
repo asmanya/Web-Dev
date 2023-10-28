@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact form 3</title>
+    <link rel="stylesheet" href="practice3.css">
+</head>
+<body>
+    <div id="contact-form" class="clearfix">
+        <h1>Get In Touch!</h1>
+        <h2>Fill out our super swanky HTML5 contact form below to get in touch with us! Please provide as much information as possible for us to help you with your enquiry :)</h2>
+        <form action="process.php" method="form">
+            <label for="name">Name: <span class="required">*</span></label>
+            <input type="text" id="name" name="name" value="" placeholder="John Doe" required>
+            <label for="email">Email Address: <span class="required">*</span></label>
+            <input type="email" name="email" id="email" placeholder="johndoe@example.com" required>
+            <label for="Telephone">Telephone: <span class="required">*</span></label>
+            <input type="tel" id="Telephone" name="telephone" value="">
+            <label for="Enquiry">Enquiry:</label>
+            <select name="enquiry" id="enquiry">
+                <option value="general">General</option>
+                <option value="Sales">Sales</option>
+                <option value="Support">Support</option>
+            </select>
+            <label for="Message">Message: <span class="required">*</span></label>
+            <textarea name="message" id="message" placeholder="Your message must be greater than 20 charcters" cols="30" rows="10" required></textarea>
+            <span id="leading"></span>
+            <input type="submit" value="Holla!" id="submit-button">
+            <p id="req-field-desc"><span class="required">*</span> indicates a required field</p>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inheritance</title>
+    <style>
+        body{
+            color:blue;
+        }
+        .class-1 a{
+            color: inherit;
+        }
+        .class-2 a{
+            color: initial;
+        }
+        .class-3 a{
+            color: unset;
+        }
+        .important{
+            color: rgb(0, 255, 234) !important ;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Default <a href="#">link</a>color </li>
+        <li class="class-1" >Inherited <a href="#">link</a>color </li>
+        <li class="class-2" >Initial <a href="#">link</a>color </li>
+        <li class="class-3" >Unset <a href="#">link</a>color </li>
+        <p class="important" style="color:brown" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, praesentium.</p>
+    </ul>
+</body>
+</html>

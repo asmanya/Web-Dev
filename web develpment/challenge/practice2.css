@@ -1,0 +1,103 @@
+* {
+    background-color: rgb(241, 241, 241);
+    width: 70%;
+    float: center;
+}
+
+.form {
+    background-color: rgb(255, 255, 255);
+}
+
+.body {
+    background-color: rgb(255, 255, 255);
+    border: 4cm;
+    margin: 100px 100px;
+    padding: 40px;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 80%;
+    box-sizing: content-box;
+}
+
+p,
+h2,
+b,
+a,
+#div1,
+#div2,
+#div3,
+#div4,
+#div5,
+#div6
+{
+background-color: white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 150%;
+    margin: 70px;
+}
+
+.heading {
+    font-size: 90%;
+
+}
+
+#div1 {
+    width: 45%;
+    float: left;
+}
+
+#div2 {
+    width: 45%;
+    float: right;
+}
+
+#div3 {
+    width: 45%;
+    float: left;
+}
+
+#div4 {
+    width: 45%;
+    float: right;
+}
+
+.help{
+    position: absolute;
+    translate:  0rem 13rem;
+    background-color: white;
+}
+#select{
+    margin: 4rem 0;
+}
+input[type=text],
+input[type=submit],
+select {
+    border: 0px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.passage {
+    text-align: left;
+}
+
+.impact_bold {
+    font-weight: 500;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+input[type=checkbox]{
+    position: absolute;
+    translate: -41.95rem 1rem;
+}
+
+.agreement{
+    translate: 1.25rem 0.05rem;
+}

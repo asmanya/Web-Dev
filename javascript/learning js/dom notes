@@ -1,0 +1,53 @@
+/*
+
+THE DOM
+
+@ querySelector - selects the first matching element from the document
+eg
+    const para = document.querySelector('p')
+
+@ querySelectorAll - selects all the matching elements from the document
+eg
+    const para = document.querySelectorAll('p')
+
+@ It can also be used to find first or matching elemetns with classes and css selectors
+eg
+    const para = document.querySelector('.para')
+    const para = document.querySelectorAll('.para')
+
+QUERY SELECTOR AND QUERY SELECTOR ALL FORMS THE NODELIST MEANING WE CAN USSE FOR EACH FUNCTION FOR THIS
+
+
+@ Other ways to select elements
+
+    const title= document.getElementById('page-title')
+    const title= document.getElementsByClassName('page-title')
+    const title= document.getElementByTagName('page-title')
+
+THIS IS A DIFFERENT METHOD BUT FOR EACH FUNCTION CAN NOT BE USED ON IT AS IT IS A HTMLCOLLECTION. We need to convert i to arrays
+
+@ EXPLORING - CHANGING THE INNER TEXT 
+    para.innerText = 'any example here'
+
+@ GET ATTRIBUTE AND SET ATTRIBUTE
+    const link = document.querrySelector('a')
+    console.log(link.getAttribute('href'))
+    link.setAttribute('href','www.anyexample.com')
+   
+    IF THE TEXT NEEDED TO BE CHANGED THEN IT CAN BE DONE AS
+    link.innerText = 'the changed text here'
+
+    link.setAttribute('style', 'color: red') --- THIS WILLL OVERWRITE THE EXISTING CSS
+    SO THERFORE WE USE THE OTHER WAY
+    link.style.color = 'red'
+    link.style.margin = '5px'
+
+@ ADDING AND REMOVING AND TOGGLE CLASSES
+    const content = document.querrySelector('p')
+    console.log(content.classList) --- GIVES THE LIST OF ALL THE CLASSES THE GIVEN ELEMENT HAVE
+    content.classList.add('class_to_be_added')
+    content.classList.remove('class_to_be_removed')
+    content.classList.toggle('test') --- Test is not present initally but after running the code there will be a test class
+
+*/
+

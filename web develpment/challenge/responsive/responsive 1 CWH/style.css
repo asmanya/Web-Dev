@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 5%;
+    display: flex;
+}
+.navbar{
+    display: flex;
+   
+}
+
+.nav-list {
+    width: 50%;
+    background-color: yellow;
+}
+
+.nav-list li {
+
+}
+
+.nav-list li a {
+
+}
+.rightnav{
+    background-color: blue;
+    width: 50%;
+    text-align: right;
+}

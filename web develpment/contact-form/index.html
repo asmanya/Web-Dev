@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <title>contact page</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact us</h1>
+        <form action="post" class="form-container">
+            <div class="first-name form-item">
+                <label for="First Name">First Name*</label>
+                <input type="text">
+            </div>
+            <div class="last-name form-item">
+                <label for="Last Name">Last Name*</label>
+                <input type="text">
+            </div>
+            <div class="email form-item">
+                <label for="Business Email">Business Email*</label>
+                <input type="text">
+            </div>
+            <div class="company-name form-item">
+                <label for="company name">Company Name*</label>
+                <input type="text">
+            </div>
+        </form>
+        <div class="feedback">
+            <h3>What can we help you with ?*</h3>
+            <select name="select" id="" required >
+                <option value="">PLease Select</option>
+                <option value="1">I would like to hire IMPACT</option>
+                <option value="2">
+                  I'd like to pitch our product or services to IMPACT
+                </option>
+                <option value="3">I have a question about working for IMPACT</option>
+                <option value="4">I have a question about my IMPACT+ acoount</option>
+                <option value="5">I want to become a certified coach</option>
+                <option value="6">
+                  I heard Marcus Sheridan speak and have a question
+                </option>
+                <option value="7">
+                  I would like to submit a guest blog article to your site
+                </option>
+                <option value="8">Other</option>
+            </select>
+        </div>
+        <div class="more-feedback">
+            <h3>Tell us more about what you're looking for*</h3>
+            <input type="text">
+        </div>
+        <p class="passage">
+            <b>IMPACT</b> will use this infomation to connect you with the right
+            person to answer your question and may send related content. By checking
+            the box, you allow <b class="impact_bold"> IMPACT</b> to store and process the information submitted
+            above for this purpose. You may unsubscribe from these communications at
+            any time. For more information please review our
+            <a href="#">Privacy Policy.</a>
+          </p>
+        
+          <input class="checkbox" type="checkbox" name="checkbox">
+          <p class="agreement">I agree to recieve other communications from IMPACT.*</p>
+          <a href="#"><img src="recaptcha.png" alt="recaptcha" style="background-color:white;"></a>
+          <input class="submit" type="submit" value="Submit my information">
+    </div> 
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#title{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.box{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    margin: 20px 300px;
+}
+
+.btn{
+    width: 100px;
+    height: 100px;
+}
+
+.reset{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+#red{
+    background-color: red;
+    border: 1px solid grey;
+    border-radius: 20px;
+
+}
+
+#yellow{
+    background-color: yellow;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+#green{
+    background-color: green;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+#btn4{
+    padding: 5px;
+}
