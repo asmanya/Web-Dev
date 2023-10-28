@@ -1,0 +1,21 @@
+body{
+    margin: 0 auto;
+    max-width: 900px;
+    width: 90%;
+}
+
+#box{
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    float: left;
+}
+
+.special{
+    background-color:rgb(206, 206, 206);
+}
+.clear{
+    clear: left;
+}
